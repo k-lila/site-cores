@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cor01 {
+    background-color: whitesmoke;
+}
+
+.cor02 {
+    background-color: lightgrey;
+}
+
+.cor03 {
+    background-color: darkgray;
+}
+
+.cor04 {
+    background-color: black;
+}
+
+.corfonte {
+    color: black;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.container-flex {
+    display: flex;
+}
+
+header {
+    font-size: 125%;
+    padding: 10px 0;
+    margin-bottom: 25px;
+
+}
+
+header .container-flex {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header h1 {
+    margin: auto 45% auto 5%;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.menu li {
+    padding: 3px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    color: black;
+}
+
+.carrinho {
+    display: flex;
+    margin: auto 25px auto;
+
+}
+.carrinho img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#sobre img {
+    width: 45%;
+    height: 45%;
+}
+
+#sobre div {
+    width: 50%;
+}
+
+#sobre h2 {
+    padding: 20px;
+    border-bottom: 2px solid;
+}
+
+#sobre p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 125%;
+}
+
+#produtos {
+    position: relative;
+}
+
+#produtos h2 {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#lista-produtos {
+    padding: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    justify-content: space-evenly;
+}
+
+#submenu {
+    text-align: right;
+    margin-right: 5%;
+}
+
+#submenu nav {
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);    
+    border-radius: 5%;
+    right: 3%;
+    top: -7.5em;
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+#submenu button {
+    padding: 5px 15px;
+    margin: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+#submenu button:hover {
+    color: whitesmoke;
+}
+
+#submenu span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+#submenu span:hover {
+    border-bottom: 2px groove black;
+    cursor: pointer;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    padding: 10% ;
+    margin: 10px;
+    background-color: white;
+    border-style: groove;
+}
+
+.produto p {
+    text-align: left;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.produto span {
+    margin: 0 auto;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.produto button {
+    padding: 5px;
+    margin: 0 10%;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.produto button:hover {
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 120%;
+}
+
+footer > .container {
+    justify-content: space-between;
+}
+
+footer p {
+    margin: auto 0;
+}
+
+footer ul {
+    margin-right: 2em;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer img {
+    max-width: 2em;
+    max-height: 2em;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 640px) {
+
+    .container,
+    #sobre,
+    #sobre img,
+    #lista-produtos {
+        display: block;
+    }
+
+    header h1 {
+        margin: auto 0;
+        margin-right: 15%;
+        margin-left: 3%;
+    }
+
+    header > .container-flex {
+        padding: 1%;
+    }
+
+    .menu {
+        margin: auto 0;
+    }
+
+    #sobre img,
+    #sobre div {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto
+    }
+    
+    #submenu {
+        margin-bottom: 1%;
+    }
+
+    #lista-produtos {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .produto span {
+        width: 70%;
+        padding-bottom: 70%;
+        margin-top: 10%
+    }
+
+    .produto p {
+        margin: 3% 12%;
+        font-size: 120%;
+    }
+
+    .produto button {
+        padding: 3%;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 110%;
+    }
+
+    footer ul {
+        margin: 0 40%;
+    }
+
+    footer ul li {
+        margin: 0 auto;
+    }
+
+    footer ul img {
+        margin: 0 auto;
+        margin-top: 10px;        
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+
+    .container,
+    #sobre,
+    #sobre img {
+        display: block;
+    }
+
+    header > .container-flex {
+        padding: 1%;
+    }
+
+    #sobre div {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto
+    }
+
+    #sobre img {
+        width: 70%;
+        height: 70%;
+        margin: 0 auto
+    }
+
+    #lista-produtos {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+
+    .produto span {
+        width: 90%;
+        padding-bottom: 90%;
+        margin-top: 5%
+    }
+
+    .produto p {
+        margin: 3% 2%;
+        font-size: 120%;
+    }
+
+    .produto button {
+        padding: 3%;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 110%;
+    }
+
+    footer > .container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer img {
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+
+}
