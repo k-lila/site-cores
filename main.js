@@ -93,6 +93,27 @@ $(document).ready(function() {
                 });
                 $('#submenu span').html('tons aquarelados');
             });
+            // paleta 05
+            $('#tons-pollock').on('click', function() {
+                $('.cor01').css({'background-color': '#F1ECD7'});
+                $('.cor02').css({'background-color': '#1962A0'});
+                $('.cor03').css({'background-color': '#D89CA9'});
+                $('.cor04').css({'background-color': '#E8C051'});
+                $('.corfonte').css({'color': '#1A1C23'});
+                $('.produto button').on('mouseenter', function() {
+                    $(this).css({
+                        'background-color': '#E8C051',
+                        'color': 'white'
+                    });
+                });
+                $('.produto button').on('mouseleave', function() {
+                    $(this).css({
+                        'background-color': 'white',
+                        'color': 'black'
+                    });
+                });
+                $('#submenu span').html('tons de Pollock');
+            });
         });
     });
 })

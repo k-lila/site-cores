@@ -11,23 +11,23 @@ body {
 }
 
 .cor01 {
-    background-color: whitesmoke;
+    background-color: #F1ECD7;
 }
 
 .cor02 {
-    background-color: lightgrey;
+    background-color: #1962A0;
 }
 
 .cor03 {
-    background-color: darkgray;
+    background-color: #D89CA9;
 }
 
 .cor04 {
-    background-color: black;
+    background-color: #E8C051;
 }
 
 .corfonte {
-    color: black;
+    color: #1A1C23;
 }
 
 .container {
@@ -133,7 +133,7 @@ li {
     background-color: rgba(255, 255, 255, 0.7);    
     border-radius: 5%;
     right: 3%;
-    top: -7.5em;
+    top: -9.7em;
     display: none;
 }
 
@@ -198,7 +198,8 @@ button {
 
 .produto button:hover {
     font-weight: bold;
-    background-color: lightgray;
+    background-color: #E8C051;
+    color: white;
 }
 
 footer {
