@@ -93,10 +93,6 @@ $(document).ready(function() {
                 });
                 $('#submenu span').html('tons aquarelados');
             });
-
-
-
-
         });
     });
 })
