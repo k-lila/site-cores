@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 body {
@@ -11,23 +11,23 @@ body {
 }
 
 .cor01 {
-    background-color: #F1ECD7;
+    background-color: #F1ECCE;
 }
 
 .cor02 {
-    background-color: #1962A0;
+    background-color: #E9D688;
 }
 
 .cor03 {
-    background-color: #D89CA9;
+    background-color: #A85835;
 }
 
 .cor04 {
-    background-color: #E8C051;
+    background-color: #9EA3B5;
 }
 
 .corfonte {
-    color: #1A1C23;
+    color: black;
 }
 
 .container {
@@ -76,7 +76,7 @@ li {
 
 .carrinho {
     display: flex;
-    margin: auto 25px auto;
+    margin: auto 5px auto 15px;
 
 }
 .carrinho img {
@@ -198,7 +198,7 @@ button {
 
 .produto button:hover {
     font-weight: bold;
-    background-color: #E8C051;
+    background-color: #9EA3B5;
     color: white;
 }
 
@@ -241,7 +241,7 @@ footer img {
 
     header h1 {
         margin: auto 0;
-        margin-right: 15%;
+        margin-right: 13%;
         margin-left: 3%;
     }
 

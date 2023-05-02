@@ -9,16 +9,16 @@ $(document).ready(function() {
     $('#submenu span').on('click', function() {
         $('#submenu nav').slideToggle(250, 'linear', function() {
             // paleta01
-            $('#tons-cinza').on('click', function() {
-                $('.cor01').css({'background-color': 'whitesmoke'});
-                $('.cor02').css({'background-color': 'lightgrey'});
-                $('.cor03').css({'background-color': 'darkgrey'});
-                $('.cor04').css({'background-color': 'black'});
+            $('#tons-turner').on('click', function() {
+                $('.cor01').css({'background-color': '#F1ECCE'});
+                $('.cor02').css({'background-color': '#E9D688'});
+                $('.cor03').css({'background-color': '#A85835'});
+                $('.cor04').css({'background-color': '#9EA3B5'});
                 $('.corfonte').css({'color': 'black'});
                 $('.produto button').on('mouseenter', function() {
                     $(this).css({
-                        'background-color': 'lightgrey',
-                        'color': 'black'
+                        'background-color': '#9EA3B5',
+                        'color': 'white'
                     });
                 });
                 $('.produto button').on('mouseleave', function() {
@@ -27,7 +27,7 @@ $(document).ready(function() {
                         'color': 'black'
                     });
                 });
-                $('#submenu span').html('tons de cinza');
+                $('#submenu span').html('tons de J. M. W. Turner');
             });
             // paleta02
             $('#tons-pasteis').on('click', function() {
@@ -99,7 +99,10 @@ $(document).ready(function() {
                 $('.cor02').css({'background-color': '#1962A0'});
                 $('.cor03').css({'background-color': '#D89CA9'});
                 $('.cor04').css({'background-color': '#E8C051'});
-                $('.corfonte').css({'color': '#1A1C23'});
+                $('.corfonte').css({'color': '#F1ECD7'});
+                $('.produto p').css({'color': 'black'})
+                $('#sobre').css({'color': 'black'})
+                $('#submenu span').css({'color': 'black'})
                 $('.produto button').on('mouseenter', function() {
                     $(this).css({
                         'background-color': '#E8C051',
