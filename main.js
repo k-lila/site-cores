@@ -9,15 +9,18 @@ $(document).ready(function() {
     $('#submenu span').on('click', function() {
         $('#submenu nav').slideToggle(250, 'linear', function() {
             // paleta01
-            $('#tons-turner').on('click', function() {
-                $('.cor01').css({'background-color': '#F1ECCE'});
-                $('.cor02').css({'background-color': '#E9D688'});
-                $('.cor03').css({'background-color': '#A85835'});
-                $('.cor04').css({'background-color': '#9EA3B5'});
-                $('.corfonte').css({'color': 'black'});
+            $('#tons-miro').on('click', function() {
+                $('.cor01').css({'background-color': '#EDE5D2'});
+                $('.cor02').css({'background-color': '#3B6C73'});
+                $('.cor03').css({'background-color': '#C04759'});
+                $('.cor04').css({'background-color': '#F1D87F'});                
+                $('.corfonte').css({'color': '#EDE5D2'});
+                $('.produto p').css({'color': 'black'})
+                $('#sobre').css({'color': 'black'});
+                $('#submenu span').css({'color': 'black'});                
                 $('.produto button').on('mouseenter', function() {
                     $(this).css({
-                        'background-color': '#9EA3B5',
+                        'background-color': '#F1D87F',
                         'color': 'white'
                     });
                 });
@@ -27,19 +30,22 @@ $(document).ready(function() {
                         'color': 'black'
                     });
                 });
-                $('#submenu span').html('tons de J. M. W. Turner');
+                $('#submenu span').html('tons de Miró');
             });
             // paleta02
-            $('#tons-pasteis').on('click', function() {
-                $('.cor01').css({'background-color': '#ece5ce'});
-                $('.cor02').css({'background-color': '#f1d4af'});
-                $('.cor03').css({'background-color': '#e08e79'});
-                $('.cor04').css({'background-color': '#774f38'});
-                $('.corfonte').css({'color': '#774f38'});
+            $('#tons-frida').on('click', function() {
+                $('.cor01').css({'background-color': '#D6CFB7'});
+                $('.cor02').css({'background-color': '#6D8325'});
+                $('.cor03').css({'background-color': '#BD5630'});
+                $('.cor04').css({'background-color': '#E5AD4F'});
+                $('.corfonte').css({'color': 'white'});
+                $('.produto p').css({'color': '#121510'});
+                $('#sobre').css({'color': '#121510'});
+                $('#submenu span').css({'color': '#121510'});
                 $('.produto button').on('mouseenter', function() {
                     $(this).css({
-                        'background-color': '#c5e0dc',
-                        'color': '#774f38'
+                        'background-color': '#E5AD4F',
+                        'color': 'white'
                     });
                 });
                 $('.produto button').on('mouseleave', function() {
@@ -48,40 +54,21 @@ $(document).ready(function() {
                         'color': 'black'
                     });
                 });
-                $('#submenu span').html('tons pastéis');
+                $('#submenu span').html('tons de Frida K.');
             });
             // paleta03
-            $('#tons-complementares').on('click', function() {
-                $('.cor01').css({'background-color': '#e7eed0'});
-                $('.cor02').css({'background-color': '#948e99'});
-                $('.cor03').css({'background-color': '#40798C'});
-                $('.cor04').css({'background-color': '#2e1437'});
-                $('.corfonte').css({'color': '#2e1437'});
-                $('.produto button').on('mouseenter', function() {
-                    $(this).css({
-                        'background-color': '#40798C',
-                        'color': 'white'
-                    });
-                });
-                $('.produto button').on('mouseleave', function() {
-                    $(this).css({
-                        'background-color': 'white',
-                        'color': '#2e1437'
-                    });
-                });
-                $('#submenu span').html('tons complementares');
-            });
-            // paleta 04
-            $('#tons-aquarelados').on('click', function() {
-                $('.cor01').css({'background-color': '#9ed1b7'});
-                $('.cor02').css({'background-color': '#095a57'});
-                $('.cor03').css({'background-color': '#78a890'});
-                $('.cor04').css({'background-color': '#e7d9b4'});
+            $('#tons-albrecht').on('click', function() {
+                $('.cor01').css({'background-color': '#171635'});
+                $('.cor02').css({'background-color': '#00225D'});
+                $('.cor03').css({'background-color': '#CA7508'});
+                $('.cor04').css({'background-color': '#763262'});
                 $('.corfonte').css({'color': 'white'});
-                $('.produto p').css({'color': 'black'})
+                $('.produto p').css({'color': 'black'});
+                $('#sobre').css({'color': 'white'});
+                $('#submenu span').css({'color': 'white'});
                 $('.produto button').on('mouseenter', function() {
                     $(this).css({
-                        'background-color': '#e7d9b4',
+                        'background-color': '#763262',
                         'color': 'white'
                     });
                 });
@@ -91,18 +78,18 @@ $(document).ready(function() {
                         'color': 'black'
                     });
                 });
-                $('#submenu span').html('tons aquarelados');
+                $('#submenu span').html('tons de G. Albrecht');
             });
-            // paleta 05
+            // paleta 04
             $('#tons-pollock').on('click', function() {
                 $('.cor01').css({'background-color': '#F1ECD7'});
                 $('.cor02').css({'background-color': '#1962A0'});
                 $('.cor03').css({'background-color': '#D89CA9'});
                 $('.cor04').css({'background-color': '#E8C051'});
                 $('.corfonte').css({'color': '#F1ECD7'});
-                $('.produto p').css({'color': 'black'})
-                $('#sobre').css({'color': 'black'})
-                $('#submenu span').css({'color': 'black'})
+                $('.produto p').css({'color': 'black'});
+                $('#sobre').css({'color': 'black'});
+                $('#submenu span').css({'color': 'black'});
                 $('.produto button').on('mouseenter', function() {
                     $(this).css({
                         'background-color': '#E8C051',
