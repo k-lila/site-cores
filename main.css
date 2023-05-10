@@ -10,26 +10,6 @@ body {
     flex-direction: column;
 }
 
-.cor01 {
-    background-color: #F1ECD7;
-}
-
-.cor02 {
-    background-color: #1962A0;
-}
-
-.cor03 {
-    background-color: #D89CA9;
-}
-
-.cor04 {
-    background-color: #E8C051;
-}
-
-.corfonte {
-    color: #F1ECD7;
-}
-
 .container {
     max-width: 1080px;
     margin: 0 auto;
@@ -181,9 +161,10 @@ button {
 
 .produto p {
     text-align: left;
-    padding: 10px;
+    padding: 20px 10px;
     margin-left: 5px;
     color: black;
+    text-align: justify;
 }
 
 .produto span {
@@ -201,12 +182,6 @@ button {
     margin: 0 10%;
     border: 2px solid black;
     border-radius: 4px;
-}
-
-.produto button:hover {
-    font-weight: bold;
-    background-color: #E8C051;
-    color: white;
 }
 
 footer {
